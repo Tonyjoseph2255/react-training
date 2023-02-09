@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Registration Page</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="register">
+        <h2>Register Here</h2>
+
+        <form id="register" method="post">
+          <label>First Name :</label> <br />
+          <input type="text" name="fname" placeholder="Enter your First Name" />
+          <br /><br /><label>Last Name :</label>
+          <br />
+          <input type="text" name="lname" placeholder="Enter your Last Name" />
+          <br /><br /><label>Gender :</label><br />
+          <input type="radio" name="gender" id="male" />
+          <span id="male">Male</span>
+          <input type="radio" name="gender" id="female" />
+          <span id="female">Female</span> <br /><br />
+          <label>Age : </label>
+          <select name="Age" value="Age">
+            <option value="0-20">0-20</option>
+
+            <option value="21-40">21-40</option>
+
+            <option value="41-60">41-60</option>
+            <option value="61-80">61-80</option></select
+          ><br /><br />
+         
+          <label>Your Date of Birth: </label><br />
+          <select name="month">
+            <option value="month">Month</option>
+
+            <option value="January">January</option>
+
+            <option value="february">February</option>
+
+            <option value="march">March</option>
+
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">december</option>
+          </select>
+          <select name="days">
+            <option value="days">Days</option>
+
+            <option value="1">1</option>
+
+            <option value="2">2</option>
+
+            <option value="3">3</option>
+
+            <option value="4">4</option>
+          </select>
+          <select name="year">
+            <option value="year">Year</option>
+
+            <option value="1996">1996</option>
+
+            <option value="1997">1997</option>
+
+            <option value="1998">1998</option>
+
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+          </select>
+          <br /><br />
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            >Click here
+          </a>
+          <br /><br />
+          <img src="images/back.jpeg" />
+          <br /><br /><br /><br /><!--<a href="images/download.jpg" target="_blank">Show me the image</a>          <br><br>--> 
+
+          <!-- <label class="switch" value="I am not a robot">            <input type="checkbox" id="toggle">            <span class="slider"> </span>          </label>          <br><br> --> 
+
+          <input type="submit" value="Submit" name="submit" id="submit" />
+          <br /><br />
+          <input type="button" value="Cancel" id="button" />
+        </form>
+      </div>
+
+      <!--End of register class-->
+    </div>
+
+    <!--end of main class-->
+  </body>
+</html>
