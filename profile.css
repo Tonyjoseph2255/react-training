@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #999;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .profile-info p {
+    margin-bottom: 10px;
+    background: white
+  }
+  
+  .profile-info strong {
+    font-weight: bold;
+  }
+  
+  .profile-info span {
+    font-weight: normal;
+  }
+  

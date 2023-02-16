@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <h2> Your profile info</h2>
+    <div class="profile-info">
+        <p><strong>UserName:</strong><span id="username"></span></p>
+        <p><strong>FirstName:</strong><span id="firstName"></span></p>
+        <p><strong>LastName:</strong><span id="lastName"></span></p>
+        <p><strong>DOB:</strong><span id="dob"></span></p>
+        <p><strong>Age:</strong><span id="gender"></span></p>
+    </div><script>
+        const user=JSON.parse(localStorage.getItem('users'))[0];
+        document.getElementById('username').textContent=user.username;
+        document.getElementById('firstName').textContent=user.firstName;
+        document.getElementById('lastName').textContent=user.lastName;
+        document.getElementById('dob').textContent=user.dob;
+        document.getElementById('gender').textContent=user.gender;
+    </script>
+    
+</body>
+</html>
